@@ -31,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
     Button btn;
     Button btnMove;
 
+
+
+
     public String encode(String message, int keyVal) {
         String output = "";
         char key = (char) keyVal;
